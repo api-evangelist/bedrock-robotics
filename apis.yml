@@ -1,8 +1,14 @@
 aid: bedrock-robotics
 name: Bedrock Robotics
-description: 'Bedrock Robotics is a company surfaced as a portfolio company of 8vc, emergence-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: robotics. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Bedrock Robotics develops advanced autonomy for the built world, retrofitting
+  existing heavy construction machinery with an autonomous kit the company calls the Bedrock
+  Operator. The system adds machine intelligence to equipment such as excavators and dozers
+  so jobsites can run around the clock with reduced human intervention, compressing project
+  timelines, improving safety by removing operators from hazardous work, and enabling remote
+  progress tracking. Backed by 8vc and Emergence Capital, the company raised a $270M Series B.
+  Bedrock is a robotics and physical-autonomy company; it publishes no public developer API,
+  documentation, or SDK surface at this time. This profile tracks the company in the API
+  Evangelist network and captures its public web and security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/bedrock-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +17,30 @@ x-backed-by:
 - emergence-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://bedrockrobotics.com/static-image.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Robotics
+- Autonomy
+- Construction
+- Heavy Equipment
+- Autonomous Machinery
+- Artificial Intelligence
+- Physical AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://bedrockrobotics.com
+- type: Blog
+  url: https://bedrockrobotics.com/news
+- type: Support
+  url: https://bedrockrobotics.com/contact
+- type: TermsOfService
+  url: https://bedrockrobotics.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://bedrockrobotics.com/privacy-policy
+- type: DomainSecurity
+  url: security/bedrock-robotics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
